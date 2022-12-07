@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "kafkajs": "^2.2.3"
+    "kafkajs": "^2.2.3",
+    "mssql": "^9.0.1"
   },
   "name": "kafka-consumer",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "start" : "node ./index.js",
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vikram Vasudevan",
